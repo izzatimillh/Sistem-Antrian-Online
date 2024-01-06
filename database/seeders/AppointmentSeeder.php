@@ -1,0 +1,177 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Appointment;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class AppointmentSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $randomNumber = rand(1,3);
+        $appointment = [
+            [
+                "division_id" => 1,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 2,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 3,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 1,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 4,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 4,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 3,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 3,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 3,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 2,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            [
+                "division_id" => 1,
+                'nama_tamu' => 'Muhammad Rafie Chautie',
+                'no_hp_tamu' => '0822945558411',
+                'jumlah_tamu' => '12',
+                'detail_asal' => 'jnknk',
+                'asal' => 'kknnlv',
+                'keperluan' => 'knknwv',
+                'tanggal' => date('Y-m-d'),
+                'id_waktu' => $randomNumber,
+                'plat_mobil' => 'bkjbbk',
+                'created_at'     => date('Y-m-d H:i:s'),
+                'updated_at'     => date('Y-m-d H:i:s'),
+            ],
+            
+        ];
+
+        Appointment::insert($appointment);
+    }
+}
